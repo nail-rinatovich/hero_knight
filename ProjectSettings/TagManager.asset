@@ -6,6 +6,8 @@ TagManager:
   tags:
   - PickUp
   - DeadBlock
+  - Emeny
+  - Enemy
   layers:
   - Default
   - TransparentFX

@@ -63,8 +63,10 @@ public class Coin : MonoBehaviour
 
             setCountText();
         }
-
-
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            m_animator.SetTrigger("Hurt");
+        }
         if (other.gameObject.CompareTag("DeadBlock"))
                 {
                    Debug.Log("Player dead");
