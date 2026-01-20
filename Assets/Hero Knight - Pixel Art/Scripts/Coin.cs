@@ -65,7 +65,12 @@ public class Coin : MonoBehaviour
         }
         if (other.gameObject.CompareTag("Enemy"))
         {
-            m_animator.SetTrigger("Hurt");
+            m_animator.SetBool("noBlood", m_noBlood);
+            m_animator.SetTrigger("Death");
+        }
+        if (other.gameObject.CompareTag("Bullet"))
+        {
+             m_animator.SetTrigger("Hurt");
         }
         if (other.gameObject.CompareTag("DeadBlock"))
                 {
