@@ -5,6 +5,6 @@ public class ButtonHandler : MonoBehaviour
 {
     public void SayHello()
     {
-        Debug.Log("Hello World");
+        Debug.Log("Test click");
     }
 }
