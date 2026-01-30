@@ -9,6 +9,7 @@ TagManager:
   - Emeny
   - Enemy
   - Bullet
+  - Coin
   layers:
   - Default
   - TransparentFX
